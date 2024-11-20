@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPChatApp", "TCPChatApp\TCPChatApp.csproj", "{A11B3479-26DA-4D18-B138-AD0B5F6B69DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPChatApp", "TCPChatApp\TCPChatApp.csproj", "{A11B3479-26DA-4D18-B138-AD0B5F6B69DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPChatServer", "TCPChatServer\TCPChatServer.csproj", "{AF64ED29-7D66-4A0C-9470-6DCDD41DBD80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPChatServer", "TCPChatServer\TCPChatServer.csproj", "{AF64ED29-7D66-4A0C-9470-6DCDD41DBD80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatAppMaui", "ChatAppMaui\ChatAppMaui.csproj", "{06CB83BD-BC79-4B66-AA0D-27D0A9EFD5F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,12 @@ Global
 		{AF64ED29-7D66-4A0C-9470-6DCDD41DBD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF64ED29-7D66-4A0C-9470-6DCDD41DBD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF64ED29-7D66-4A0C-9470-6DCDD41DBD80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CB83BD-BC79-4B66-AA0D-27D0A9EFD5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06CB83BD-BC79-4B66-AA0D-27D0A9EFD5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06CB83BD-BC79-4B66-AA0D-27D0A9EFD5F3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{06CB83BD-BC79-4B66-AA0D-27D0A9EFD5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06CB83BD-BC79-4B66-AA0D-27D0A9EFD5F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CB83BD-BC79-4B66-AA0D-27D0A9EFD5F3}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
