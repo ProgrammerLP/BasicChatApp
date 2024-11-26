@@ -26,6 +26,7 @@ namespace ChatAppMAUI.MVVM.ViewModel
             server.DisonnectedEvent += UserDisconnected;
             ConnectToServerCommand = new RelayCommand(o => server.ConnectToServer(Username, IP), o => true); //, o => !string.IsNullOrEmpty(Username)
             SendMessageCommand = new RelayCommand(o => server.SendMSGToServer(Message), o => true); //!string.IsNullOrEmpty(Message)
+            Message = "";
         }
 
         private void UserDisconnected()
